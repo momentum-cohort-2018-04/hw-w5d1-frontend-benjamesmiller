@@ -34,7 +34,9 @@ class Money {
 }
 
 class Bank {
-    constructor ()
+    constructor (rates) {
+    }
+    
 }
 
 export default Money
