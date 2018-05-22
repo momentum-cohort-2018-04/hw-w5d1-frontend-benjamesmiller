@@ -27,7 +27,7 @@ class Money {
 
        checkCurrencyCodes (other) ;{
            if (this.currencyCode !== other.currencyCode) {
-               throw new Error('Currency Codes do not match')
+            throw new Error('Currency Codes do not match')
            }
        }
     }
